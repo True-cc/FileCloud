@@ -34,6 +34,7 @@ InventoryCleaner SimulateInventory false
 InventoryCleaner Sort true
 InventoryMove AACAdditionPro true
 InventoryMove NoMoveClicks false
+ItemTeleport Mode New
 KillAura AAC true
 KillAura AutoBlock false
 KillAura BlockRate 40
@@ -67,7 +68,7 @@ KillAura TargetMode Switch
 KillAura ThroughWallsRange 2.85
 LongJump Mode AACv1
 LongJump NCPBoost 3.0
-NoFall Mode Packet
+NoFall Mode NoGround
 NoRotateSet Confirm true
 NoRotateSet ConfirmIllegalRotation true
 NoRotateSet NoZero true
@@ -93,7 +94,7 @@ Scaffold SpeedModifier 1.5
 Scaffold Sprint false
 Scaffold StayAutoBlock true
 Scaffold Swing true
-Scaffold Timer 1.0
+Scaffold Timer 1.2
 Scaffold Zitter false
 Scaffold ZitterMode Smooth
 Scaffold ZitterSpeed 0.1
@@ -116,6 +117,7 @@ Step Height 1.0
 Step Mode AAC
 Teams Color true
 Teams ScoreboardTeam true
+Timer Speed 0.1
 Tower AutoBlock true
 Tower ConstantMotion 1.0
 Tower ConstantMotionJumpGround 0.76
@@ -129,7 +131,7 @@ Tower TeleportGround true
 Tower TeleportHeight 1.12
 Tower TeleportNoMotion false
 Velocity Horizontal 0.0
-Velocity Mode Jump
+Velocity Mode Simple
 Velocity Reverse2Strength 0.05
 Velocity ReverseStrength 0.5
 Velocity Vertical 0.0
@@ -142,11 +144,14 @@ Nofall toggle true
 Step toggle true
 Teams toggle true
 
-chat Use TeleportHit to teleport to someone. Don't have it active when falling. It will kick you!
+chat Check http://www.mediafire.com/folder/yckk16y9hx8lw/OmegaCraft for a new config (if any)
+chat For changelog: https://github.com/True-cc/True_cc/blob/Sms-Gamer-LB-configs/ChangeLog.md
+chat Use ItemTeleport to teleport to that location.
+chat Alternativly, use TeleportHit to teleport to someone.
 chat HighJump works and LongJump only works vertically.
 chat Nofall and Step both work.
 chat Velocity kinda works.
 chat Fucker works amazingly.
 chat Use NCPFHop or AAC3BHop for bhop-type thing.
 chat The config is only for bedwars
-chat Settings made by \u00A74&lDiscord: &6&lSms Gamer#3808| 03.12.2018
+chat Settings made by \u00A74&lDiscord: &6&lSms Gamer#3808| 29.11.2018 | Version 1.1
